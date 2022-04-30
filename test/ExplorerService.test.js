@@ -16,3 +16,13 @@ describe("Test para emails de los partners",()=>{
         expect(listaExplorers).toContain("partner1@launchx.com")
     });
 });
+
+describe("Test 3 Creditos de los partners",()=>{
+    test("Comprobar creditos mayor a 500" ,()=>{
+        const partner1={name:"Julio",credits:250}
+        const partner2={name:"Carlos",credits:532}
+        const partner3={name:"Roberto",credits:650}    
+        const listaExplorers = ExplorerService.creditsUp500([partner1,partner2,partner3]);
+        expect(listaExplorers).toContain("Roberto","Carlos")
+    });
+});

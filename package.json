@@ -1,0 +1,22 @@
+{
+  "name": "codechallenge",
+  "version": "1.0.0",
+  "description": "Code Challenge LaunchX",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jricardocam/CodeChallenge.git"
+  },
+  "author": "José Ricardo Camacho Camacho",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jricardocam/CodeChallenge/issues"
+  },
+  "homepage": "https://github.com/jricardocam/CodeChallenge#readme",
+  "devDependencies": {
+    "jest": "^28.0.3"
+  }
+}

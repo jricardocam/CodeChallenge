@@ -6,7 +6,9 @@
   "scripts": {
     "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest",
     "start": "node index.js",
-    "server": "node ./lib/server.js"
+    "server": "node ./lib/server.js",
+    "linter": "eslint .",
+    "linter-fix": "eslint . --fix"
   },
   "repository": {
     "type": "git",
@@ -19,6 +21,7 @@
   },
   "homepage": "https://github.com/jricardocam/CodeChallenge#readme",
   "devDependencies": {
+    "eslint": "^8.14.0",
     "jest": "^26.0.0"
   },
   "dependencies": {

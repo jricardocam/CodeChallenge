@@ -6,3 +6,10 @@ describe("Test 1 en Controller",()=>{
         expect(lista).notToBeUndefined
     });
 });
+
+describe("Test 2 en Controller",()=>{
+    test("Comprobar credits partners" ,()=>{
+        const lista = VisualController.getCreditsUp500();
+        expect(lista).notToBeUndefined
+    });
+});

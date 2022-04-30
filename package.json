@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest",
-    "start": "node index.js"
+    "start": "node index.js",
+    "server": "node ./lib/server.js"
   },
   "repository": {
     "type": "git",
@@ -19,5 +20,8 @@
   "homepage": "https://github.com/jricardocam/CodeChallenge#readme",
   "devDependencies": {
     "jest": "^28.0.3"
+  },
+  "dependencies": {
+    "express": "^4.18.1"
   }
 }
